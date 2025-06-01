@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #051129;
+            color: #ededed;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgb(163, 134, 220);
+            color: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #eae6ff;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: #051129;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: rgb(163, 134, 220);
+            margin-bottom: 20px;
+        }
+        section p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        /* Image Styles */
+        .project-img {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: rgb(163, 134, 220);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div><strong>PROJECTS</strong></div>
+        <div>
+            <a href="#lms">LMS System</a>
+            <a href="#portfolio">Portfolio Website</a>
+            <a href="#todo">To-Do List App</a>
+            <a href="#ibm">IBM Malnutrition Analysis</a>
+        </div>
+    </div>
+
+    <!-- LMS Project -->
+    <section id="lms">
+        <h2>Structured Data Management in AI-Based LMS</h2>
+        <img src="projects/lms.png" alt="LMS Project" class="project-img">
+        <p>Enhancing structured data organization using AI to create an optimized Learning Management System, improving educational accessibility and efficiency.</p>
+        <p><strong>Technologies Used:</strong> Python,SQL,Vue.js,Django</p>
+    </section>
+
+    <!-- Portfolio Project -->
+    <section id="portfolio">
+        <h2>Portfolio Project</h2>
+        <img src="projects/port.png" alt="Portfolio" class="project-img">
+        <p>A modern personal portfolio built with interactive design principles to showcase projects, certifications, and skills.</p>
+        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+    </section>
+
+    <!-- To-Do List Web App -->
+    <section id="todo">
+        <h2>To-Do List Web App</h2>
+        <img src="projects/todo.png" alt="To-Do List" class="project-img">
+        <p>A simple, user-friendly task management application designed to help users organize daily activities efficiently.</p>
+        <p><strong>Technologies Used:</strong> JavaScript,HTML,CSS</p>
+    </section>
+
+    <!-- IBM Malnutrition Analysis -->
+    <section id="ibm">
+        <h2>Malnutrition Analysis - IBM Project</h2>
+        <img src="projects/malnutrition.png" alt="IBM Project" class="project-img">
+        <p>AI-powered data analytics project assessing malnutrition trends and providing actionable insights to aid healthcare interventions.</p>
+        <p><strong>Technologies Used:</strong> CognosBI</p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 Kaviya Sri Venkatesan. All rights reserved.
+    </div>
+
+</body>
+</html>

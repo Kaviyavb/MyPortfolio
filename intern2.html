@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Internship</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #051129;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgb(163, 134, 220);
+            color: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #eae6ff;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: #051129;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: rgb(163, 134, 220);
+            margin-bottom: 20px;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* List Styles */
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: rgb(163, 134, 220);
+        }
+
+        /* Button */
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: rgb(163, 134, 220);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #9f8fc7;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgb(163, 134, 220);
+            color: white;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .navbar a {
+                margin: 5px 0;
+            }
+            section {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div><strong>WEB DEVELOPMENT INTERNSHIP</strong></div>
+        <div>
+            <a href="#overview">OVERVIEW</a>
+            <a href="#skills">KEY LEARNINGS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#certificate">CERTIFICATE</a>
+        </div>
+    </div>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <h2>OVERVIEW</h2>
+        <p style="color: #ededed;">
+            I had the privilege of completing the <span style="color: rgb(163, 134, 220); font-weight: bold;">Web Development Internship</span> offered by Bud India where I gained hands-on experience in designing and building web applications. The internship provided exposure to modern web technologies, including HTML5, CSS3, JavaScript,SQL and frameworks like <span style="color: rgb(163, 134, 220); font-weight: bold;">React</span> and <span style="color: rgb(163, 134, 220); font-weight: bold;">Bootstrap</span> for full-stack development.
+        </p>
+        <img src="intern/Portfolio - Personal - Microsoft​ Edge 15-11-2024 11_07_42.png" alt="Web Development Overview">
+    </section>
+
+    <!-- Key Learnings Section -->
+    <section id="skills">
+        <h2>KEY LEARNINGS AND SKILLS ACQUIRED</h2>
+        <ul style="color: #ededed;">
+            <li><strong style="color: rgb(163, 134, 220);">Proficiency in Front-end Development:</strong> Developed interactive and responsive web pages using HTML5, CSS3, and JavaScript.</li>
+            <li><strong style="color: rgb(163, 134, 220);">SQL:</strong> Learned to connect and develop the data base connectivity with the web page using SQL.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Bootstrap</strong> Became proficiency at using Bootstrap framework ,varoius usages and its advantages.</li>
+            <li>Enhanced debugging, code optimization, and version control skills using Git.</li>
+        </ul>
+            
+        <img src="intern/Registration and Login Form - Personal - Microsoft​ Edge 14-11-2024 22_52_54 (2).png" alt="Key Learnings">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>PROJECTS UNDERTAKEN</h2>
+        <ul style="color: #ededed;">
+            <li><strong style="color: rgb(163, 134, 220);">E-commerce website clone:</strong> Developed a fully functional e-commerce website using HTML,CSS and Javascript for the front end and sql,Python for the back end, with secure user authentication.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Personal Portfolio:</strong> Designed and built a personal portfolio website to showcase web development skills and projects.</li>
+        </ul>
+       </section>
+    <!-- Certificate Section -->
+    <section id="certificate">
+        <h2>CERTIFICATE OF COMPLETION</h2>
+        <div>
+            <p style="color: #ededed;">
+                Successfully completed the Web Development Internship by BUD INDIA. Below is the certificate of completion.
+            </p>
+            <p class="img-r"><iframe src="intern/510421104046.pdf" width="800" height="500" frameborder="0" scrolling="yes"></iframe>
+           
+            <a href="intern/510421104046.pdf" download class="cta-button">Download Certificate</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 kaviya sri venkatesan. All rights reserved.
+    </div>
+</body>
+</html>

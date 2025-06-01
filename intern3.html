@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Internship</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #051129;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgb(163, 134, 220);
+            color: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #eae6ff;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: #051129;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: rgb(163, 134, 220);
+            margin-bottom: 20px;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* List Styles */
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: rgb(163, 134, 220);
+        }
+
+        /* Button */
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: rgb(163, 134, 220);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #9f8fc7;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgb(163, 134, 220);
+            color: white;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .navbar a {
+                margin: 5px 0;
+            }
+            section {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div><strong>DATA SCIENCE INTERNSHIP</strong></div>
+        <div>
+            <a href="#overview">OVERVIEW</a>
+            <a href="#skills">KEY LEARNINGS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#certificate">CERTIFICATE</a>
+        </div>
+    </div>
+
+    <!-- Overview Section -->
+    <section id="overview">
+        <h2>OVERVIEW</h2>
+       
+        <p style="color: #ededed;">
+            I had the privilege of completing the <span style="color: rgb(163, 134, 220); font-weight: bold;">Web Development Internship</span> offered by Bud India where I gained hands-on experience in designing and building web applications. The internship provided exposure to modern web technologies, including HTML5, CSS3, JavaScript,SQL and frameworks like <span style="color: rgb(163, 134, 220); font-weight: bold;">React</span> and <span style="color: rgb(163, 134, 220); font-weight: bold;">Bootstrap</span> for full-stack development.
+        </p>
+        
+    </section>
+
+    <!-- Key Learnings Section -->
+    <section id="skills">
+        <h2>KEY LEARNINGS AND SKILLS ACQUIRED</h2>
+        <ul style="color: #ededed;">
+            <li><strong style="color: rgb(163, 134, 220);">Data Preprocessing:</strong> Gained expertise in handling missing data, data normalization, and feature scaling.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Statistical Analysis:</strong> Learned statistical methods for data analysis and hypothesis testing.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Machine Learning Algorithms:</strong> Implemented regression models, classification algorithms, and clustering techniques.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Data Visualization:</strong> Developed skills in visualizing data using tools like Matplotlib and Seaborn.</li>
+            <li>Enhanced proficiency in handling large datasets and working with libraries like Pandas and NumPy.</li>
+        </ul>
+        
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>PROJECTS UNDERTAKEN</h2>
+        <ul style="color: #ededed;">
+            <li><strong style="color: rgb(163, 134, 220);">Customer Churn Prediction:</strong> Built a predictive model to identify potential customer churn using machine learning algorithms.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Sales Forecasting:</strong> Analyzed historical sales data to forecast future sales trends.</li>
+            <li><strong style="color: rgb(163, 134, 220);">Sentiment Analysis:</strong> Conducted sentiment analysis on customer reviews to gauge customer satisfaction.</li>
+        </ul>
+      
+</section>
+    <!-- Certificate Section -->
+    <section id="certificate">
+        <h2>CERTIFICATE OF COMPLETION</h2>
+        <div>
+            <p style="color: #ededed;">
+                Successfully completed the Web Development Internship by BUD INDIA. Below is the certificate of completion.
+            </p>
+            <p class="img-r"><iframe src="intern/datascience_intern.pdf" width="800" height="500" frameborder="0" scrolling="yes"></iframe>
+           
+            <a href="intern/datascience_intern.pdf" download class="cta-button">Download Certificate</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 kaviya sri venkatesan. All rights reserved.
+    </div>
+</body>
+</html>
+
